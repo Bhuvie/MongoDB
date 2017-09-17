@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inherit-compiler-output="true" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/out/test/Project2MMBR"/>
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="mongo-java-driver-3.5.0.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/mongo-java-driver-3.5.0.jar!/"/>
+	</lib>
+	<lib name="mysql-connector-java-5.1.6.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/mysql-connector-java-5.1.6.jar!/"/>
+	</lib>
+	<lib name="jackson-core-2.9.0.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/jackson-core-2.9.0.jar!/"/>
+	</lib>
+	<lib name="jackson-databind-2.9.0.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/jackson-databind-2.9.0.jar!/"/>
+	</lib>
+	<lib name="jackson-annotations-2.9.0.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/jackson-annotations-2.9.0.jar!/"/>
+	</lib>
+</component>

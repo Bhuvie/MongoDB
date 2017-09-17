@@ -1,0 +1,19 @@
+﻿Steps For execution:
+1.	Import the project folder into any java IDE such as Eclipse or IntelliJ.
+2.	The inputs of given five tables are inserted into AWS RDS MySQL database.
+3.	Run the Main.java class as java application.
+4.	The join queries will be executed and the result set will be converted to JSON and inserted into MongoDB database named “MongoDb2”.
+5.	Two collections namely projectCollection and departmentCollection will be created for the results during the execution of insertDocument method.. 
+6.	The documents inserted into the MongoDB will retrieved by getDocuments method and displayed on the console at the end of execution.
+7.	The getDocumentFilter method retrieves the documents matching the given filter.
+
+Assumptions:
+1.	Local MongoDB server with database “MongoDb2” is set up by the user for execution.
+
+
+References:
+https://www.mkyong.com/mongodb/java-mongodb-insert-a-document/
+https://www.mkyong.com/mongodb/java-mongodb-query-document/
+http://mongodb.github.io/mongo-java-driver/3.4/driver/getting-started/quick-start/
+http://www.javaroots.com/2015/05/mongodb-3-with-java.html
+https://stackoverflow.com/questions/30625380/find-in-mongocollectiondocument
